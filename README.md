@@ -10,7 +10,15 @@ $ pip install obamas
 
 ## Usage
 
-- TODO
+This is a toy package used for DSCI 310. It checks if a given number is 2008 or 2012 (the years Obama won).
+
+`obamas` can be used to check numeric values as follows:
+
+```python
+from obamas.obamas import is_obama
+
+is_obama(2008)
+```
 
 ## Contributing
 
