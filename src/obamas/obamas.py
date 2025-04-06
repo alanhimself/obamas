@@ -3,3 +3,5 @@ def is_obama(num):
 
     try:
         return (num == 2008 or num == 2012)
+    except:
+        print("Please enter a number")
